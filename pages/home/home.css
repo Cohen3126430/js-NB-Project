@@ -63,19 +63,7 @@
     box-shadow: 4px 4px 4px rgb(229, 185, 185);
 }
 
-
 /* עיצוב ורוד לכפתורים */
-
-/* .buttonPhotograper,
-.buttonMom {
-    width: 200px;
-    height: 40px;
-    border: solid black 1px;
-    border-radius: 30px;
-    box-shadow: 3px 5px 1px rgb(229, 185, 185);
-    margin-left: 10px;
-    margin-bottom: 20%;
-} */
 .buttonPhotograper,
 .buttonMom {
     width: 200px;
@@ -98,6 +86,7 @@
     height: 45px;
     box-shadow: none;
 }
+
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -107,12 +96,12 @@
 }
 
 /* עד כאן עיצוב enter */
-/* #img_home {
+#img_home {
     min-height: 100vh;
-    background-image: url(../../assets/home.jpg) ;
+    background-image: url(./assets/home.jpg); /* עדכון לנתיב יחסי */
     background-size: cover;
     opacity: 0.8;
-} */
+}
 
 #img_home>h1 {
     font-size: 195px;
@@ -150,18 +139,11 @@ video {
     z-index: -1;
     opacity: 0.8;
 }
+
 #top-nav {
     margin-top: -20px;
 }
-/* 
-#images2{
-    background-image: url(../../assets/תמונה.png);
-    background-size: cover;
-    margin-top: 1000px;
-    position: relative;
-    z-index: 9999;
-} */
 
-#images2>img{
+#images2>img {
     width: 100%;
 }
