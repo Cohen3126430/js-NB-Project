@@ -16,7 +16,6 @@
 
 .loginTitle {
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f4c0ba;
 }
 
@@ -24,7 +23,6 @@
     outline-width: 0;
     background: #fbccdc;
     transition: background 0.5s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .opacity {
@@ -65,19 +63,7 @@
     box-shadow: 4px 4px 4px rgb(229, 185, 185);
 }
 
-
 /* עיצוב ורוד לכפתורים */
-
-/* .buttonPhotograper,
-.buttonMom {
-    width: 200px;
-    height: 40px;
-    border: solid black 1px;
-    border-radius: 30px;
-    box-shadow: 3px 5px 1px rgb(229, 185, 185);
-    margin-left: 10px;
-    margin-bottom: 20%;
-} */
 .buttonPhotograper,
 .buttonMom {
     width: 200px;
@@ -86,7 +72,6 @@
     border-radius: 30px;
     box-shadow: 3px 5px 1px rgb(229, 185, 185);
     margin: 0px 5px 15% 5px;
-    /* //////////.............עדכון..........///////// */
 }
 
 .buttons {
@@ -101,6 +86,7 @@
     height: 45px;
     box-shadow: none;
 }
+
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -110,12 +96,12 @@
 }
 
 /* עד כאן עיצוב enter */
-/* #img_home {
+#img_home {
     min-height: 100vh;
-    background-image: url(../../assets/home.jpg) ;
+    background-image: url(../assets/home.jpg); /* עדכון לנתיב יחסי */
     background-size: cover;
     opacity: 0.8;
-} */
+}
 
 #img_home>h1 {
     font-size: 195px;
@@ -126,7 +112,6 @@
 #img_home>p {
     text-align: center;
     color: #fffdfb;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 160px;
 }
 
@@ -154,6 +139,11 @@ video {
     z-index: -1;
     opacity: 0.8;
 }
+
 #top-nav {
     margin-top: -20px;
+}
+
+#images2>img {
+    width: 100%;
 }

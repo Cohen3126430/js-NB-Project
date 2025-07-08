@@ -1067,7 +1067,8 @@
 
 
 
-        {
+
+         {
             "id": 500,
             "name": "בונבונים",
             "price": 350,
@@ -1331,7 +1332,6 @@
             "descrepition": "",
             "path": "../../assets/twins/twins (2).jpg"
         },
-
 
 
 

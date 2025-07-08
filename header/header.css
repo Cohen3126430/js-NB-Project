@@ -1,106 +1,3 @@
-/* enter-login */
-/* 
-#enter-login {
-    background-color: white;
-    font-size: 20px;
-    padding: 10px;
-    position: fixed;
-    z-index: 3;
-    margin-top: 100px;
-    margin-left: 10px;
-    width: 550px;
-    height: 430px;
-    border: solid black 1px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 6px rgb(237, 232, 232);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    animation-name: animation2;
-    animation-duration: 0.3s;
-    animation-delay: 0.1s;
-    animation-iteration-count: initial;
-    animation-direction: normal;
-    animation-fill-mode: both;
-}
-
-#new-user,
-#submit {
-    width: 300px;
-    height: 50px;
-    border: solid black 1px;
-    border-radius: 30px;
-    box-shadow: 7px 7px 1px #f4c0ba;
-}
-
-#new-user:hover,
-#submit:hover {
-    width: 310px;
-    height: 55px;
-    box-shadow: none;
-}
-
-#exampleInputEmail1,
-#exampleInputName1 {
-    width: 500px;
-    color: black;
-    border-radius: 10px;
-    padding-top: 20px;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
-
-#exampleCheck1 {
-    animation-name: animation3;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-}
-
-@keyframes animation3 {
-    50% {
-        margin-left: 15px;
-    }
-}
-
-@keyframes animation2 {
-    0% {
-        margin-top: 0px;
-        opacity: 0;
-    }
-
-    5% {
-        margin-top: 100px;
-        opacity: 0.9;
-    }
-
-    90% {
-        margin-top: 200px;
-        opacity: 1;
-    }
-}
-
-#arrow-right,
-#times {
-    margin-left: 490px;
-    font-size: 30px;
-}
-
-
-#enter-login {
-    width: 550px;
-}
- */
-
-/* enter-login עד כאן*/
-
-
-/* top-nav */
-
 #top-nav {
     width: 100%;
     height: auto;
@@ -112,20 +9,19 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* flex-shrink: 1; */
-    /* flex-grow: 1; */
-    /* gap: 113px; */
 }
 
 #top-nav>ul>a>img {
     padding-right: 0 !important;
-    height: 40px;
+    height: 30px;
 }
 
 #top-nav>ul {
     border: none;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #top-nav>ul>li {
@@ -135,10 +31,8 @@
 
 .nav-item {
     width: 150px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif sans-serif;
+    font-size: 22px;
     text-align: center;
-    /* margin-top: 8px; */
 }
 
 #top-nav>ul>#openList {
@@ -146,6 +40,10 @@
     display: flex;
     justify-content: center;
     border: none;
+}
+
+#content .nav-link {
+  font-weight: 500;
 }
 
 .nav-link {
@@ -173,39 +71,35 @@
 }
 
 #cart {
-    /* margin-top: 0%; */
-    width: 30px;
-    padding: 0px !important;
-    margin: 0px !important;
-    /* animation-name: color-animation3;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: normal; */
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0; 
+  margin: 0 20px !important;
 }
-
-/* #cart:hover {
-    opacity: 100% ;
-    background-color: transparent;
-    background-color: #f4c0ba !important;
-    border: none !important;
-    padding: 0px !important;
-    margin: 0px !important;
-    color: black !important;
-} */
+#cart a {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
+#carticon {
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: middle;
+}
 
 #Search-icon {
     font-size: 20px;
 }
 
 #link-nav {
-    /* background-color: white; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     position: absolute;
-    /* position: fixed; */
     z-index: 2;
     margin-top: 180px;
     width: 100%;
@@ -223,11 +117,6 @@
 #title>h3 {
     font-size: 15px;
 }
-
-
-/* #link-nav>a {
-    text-decoration: none;
-} */
 
 #link-nav>a>div {
     display: flex;
@@ -277,14 +166,75 @@
         display: none;
         border-radius: 10px;
     }
-/* 
-    #enter-login {
-        width: 400px;
-    } */
 
 }
 
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+@font-face {
+  font-family: 'Almoni';
+  src: url('../assets/fonts/almoni-light-aaa.woff2') format('woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Almoni';
+  src: url('../assets/fonts/almoni-medium-aaa.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Almoni';
+  src: url('../assets/fonts/almoni-bold-aaa.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Almoni Tzar';
+  src: url('../assets/fonts/almoni-tzar-medium-aaa.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Almoni Tzar';
+  src: url('../assets/fonts/almoni-tzar-ultrabold-aaa.woff2') format('woff2');
+  font-weight: 900;
+}
+
+* {
+  font-family: 'Almoni', sans-serif;
+  font-weight: 300; 
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'Almoni Tzar', sans-serif;
+  font-weight: 900; 
+  line-height: 1.2;
+}
+
+h3, h4, h5, h6,
+button, .btn, .main-link {
+  font-family: 'Almoni', sans-serif;
+  font-weight: 500; 
+}
+
+p, a, li, label, span, input, select, textarea, th, td {
+  font-family: 'Almoni', sans-serif;
+  font-weight: 300;
+}
+
+/* אם יש לך קלאס לדברים מיוחדים או מודגשים */
+.strong, .important, .highlight {
+  font-family: 'Almoni Tzar', sans-serif;
+  font-weight: 900; 
+}
+
+i,
+.fas,
+.far,
+.fab,
+.fa,
+[class^="fa-"],
+[class*=" fa-"] {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900;
 }

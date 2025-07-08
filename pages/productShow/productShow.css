@@ -5,7 +5,6 @@
     direction: rtl;
     flex-wrap: wrap;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #cardProd {
@@ -18,8 +17,6 @@
 }
 
 #detail {
-    /* padding: 10px; */
-    /* position: relative; */
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -43,28 +40,25 @@ h1 {
     margin: 0 0 10px;
     padding: 20px 0px;
     font-size: 40px !important;
-
 }
 
-#addButton>button {
+#addButton > button {
     width: 116px;
     height: 42px !important;
     color: white !important;
     font-size: 20px !important;
-    height: 42px !important;
     background-color: #f4c0ba;
     border: none;
     border-radius: 3px;
-    font-size: 18px !important;
     font-weight: 600 !important;
 }
 
-#addButton>button:hover{
+#addButton > button:hover {
     background-color: #7d7d7d;
 }
 
 #descrepition,
-#category>p {
+#category > p {
     font-size: 26px;
     color: #7d7d7d;
 }
@@ -75,15 +69,17 @@ h1,
 #category {
     border-bottom: #eaeaea 1px solid;
 }
-#categoryA{
+
+#categoryA {
     font-weight: 200;
     color: #F09AA2;
 }
+
 #categoryA:hover {
     text-decoration: none;
     color: #f4c0ba;
 }
 
-#category>p {
+#category > p {
     font-weight: bolder;
 }

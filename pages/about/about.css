@@ -1,12 +1,13 @@
 #header2 {
     min-height: 57vh;
-    background-image: url(../../assets/aboutPic.png);
+    background-image: url(../../assets/aboutPic.png); /* עדכון לנתיב יחסי */
     display: flex;
     background-position: center;
     align-content: center;
     align-items: center;
     justify-content: center;
 }
+
 .imgCategorry {
     min-height: 100vh;
     display: flex;
@@ -16,20 +17,19 @@
     background-repeat: no-repeat;
 }
 
-#img1{
-    background-image: url(../../assets/aboutLove.png);
+#img1 {
+    background-image: url(../../assets/aboutLove.png); /* עדכון לנתיב יחסי */
 }
 
-#img2{
-    background-image: url(../../assets/about2.png);
-
+#img2 {
+    background-image: url(../../assets/about2.png); /* עדכון לנתיב יחסי */
 }
 
 @media (max-width: 1100px) {
-    #img1{
-        background-image: url(../../assets/miniAbout.png);
+    #img1 {
+        background-image: url(../../assets/miniAbout.png); /* עדכון לנתיב יחסי */
     }
-    #img2{
-        background-image: url(../../assets/miniAbout2.png);
+    #img2 {
+        background-image: url(../../assets/miniAbout2.png); /* עדכון לנתיב יחסי */
     }
 }
