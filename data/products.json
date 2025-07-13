@@ -1338,11 +1338,11 @@
 
         {
             "id": 700,
-            "name": "הפלא שנוסף למשפחה",
-            "price": 300,
+            "name": "נסיכה בעריסת במבוק",
+            "price": 200,
             "category": "family",
-            "descrepition": "הפלא שנוסף למשפחה ברקע ילדודס",
-            "path": "../../assets/family/family (34).jpg"
+            "descrepition": "נסיכה בעריסת במבוק סגנון עתיק",
+            "path": "../../assets/family/family (16).jpg"
         },
         {
             "id": 701,
@@ -1460,11 +1460,11 @@
         },
         {
             "id": 715,
-            "name": "נסיכה בעריסת במבוק",
-            "price": 200,
+            "name": "נסיכות בורוד וסגול",
+            "price": 300,
             "category": "family",
-            "descrepition": "נסיכה בעריסת במבוק סגנון עתיק",
-            "path": "../../assets/family/family (16).jpg"
+            "descrepition": "זוג בובוניירות בידיים של אבא",
+            "path": "../../assets/family/family (29).jpg"
         },
         {
             "id": 716,
